@@ -27,7 +27,7 @@ var player = prompt("What is your name?");
 // Generare 2 numeri a caso tra 1 e 6
 var diceNumber = [];
 for (var i = 0; i < 2; i++) {
-  var number = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+  var number = Math.floor(Math.random() * 6) + 1;
   diceNumber.push(number);
 }
 
