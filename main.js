@@ -22,7 +22,7 @@ if (flag) {
 
 
 // Dadi
-var player = prompt("What is your name?")
+var player = prompt("What is your name?");
 
 // Generare 2 numeri a caso tra 1 e 6
 var diceNumber = [];
