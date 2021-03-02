@@ -38,7 +38,7 @@ document.getElementById('number2').innerHTML = "Computer's number: " + diceNumbe
 if (diceNumber[0] > diceNumber[1]) {
   document.getElementById('winner').innerHTML = player + " has won!";
 } else if (diceNumber[0] == diceNumber[1]) {
-  document.getElementById('winner').innerHTML = "Nobody won because numbers have the same value!";
+  document.getElementById('winner').innerHTML = "It's a tie!";
 } else {
   document.getElementById('winner').innerHTML = "Computer has won!";
 }
